@@ -49,6 +49,11 @@ dependencies {
     implementation("org.lwjgl", "lwjgl-tootle")
     implementation("org.lwjgl", "lwjgl-vma")
     implementation("org.lwjgl", "lwjgl-vulkan")
+
+    // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.10.2")
+
+
     runtimeOnly("org.lwjgl", "lwjgl", classifier = lwjglNatives)
     runtimeOnly("org.lwjgl", "lwjgl-assimp", classifier = lwjglNatives)
     runtimeOnly("org.lwjgl", "lwjgl-glfw", classifier = lwjglNatives)
