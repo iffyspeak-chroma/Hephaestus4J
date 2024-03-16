@@ -1,4 +1,4 @@
-package xyz.iffyspeak.debug;
+package xyz.iffyspeak.core;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

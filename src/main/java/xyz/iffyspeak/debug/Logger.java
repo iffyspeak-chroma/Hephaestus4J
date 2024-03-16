@@ -1,5 +1,7 @@
 package xyz.iffyspeak.debug;
 
+import xyz.iffyspeak.core.Clock;
+
 public class Logger {
 
     public static void Info(String msg)

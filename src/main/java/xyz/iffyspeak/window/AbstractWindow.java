@@ -1,6 +1,6 @@
 package xyz.iffyspeak.window;
 
-public abstract class Window {
+public abstract class AbstractWindow {
     private long handle;
     public abstract void run();
 

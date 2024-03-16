@@ -14,9 +14,9 @@ import static org.lwjgl.system.MemoryUtil.*;
 import java.nio.*;
 
 import xyz.iffyspeak.debug.Logger;
-import xyz.iffyspeak.window.Window;
+import xyz.iffyspeak.window.AbstractWindow;
 
-public class TestWindow extends Window {
+public class TestAbstractWindow extends AbstractWindow {
     @Override
     public void run() {
         Logger.Info("LWJGL " + Version.getVersion() + " <3");
