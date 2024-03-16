@@ -1,4 +1,4 @@
-package xyz.iffyspeak.core;
+package xyz.iffyspeak.debug;
 
 import org.lwjgl.*;
 import org.lwjgl.glfw.*;
